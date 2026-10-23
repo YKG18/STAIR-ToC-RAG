@@ -115,6 +115,18 @@ This starts:
 | `API_HOST`        | `0.0.0.0`                 | Host the API binds to                    |
 | `API_PORT`        | `8000`                    | Port the API listens on                  |
 
+
+## Acknowledgements
+
+This project uses code adapted from "STAIR-ToC-RAG"
+by Eyna-A. 
+
+- Repository: https://github.com/Eyna-A/STAIR-ToC-RAG
+- License: MIT License
+
+The original copyright and license notices are
+preserved in accordance with the MIT License.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).

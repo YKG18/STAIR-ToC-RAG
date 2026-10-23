@@ -13,12 +13,14 @@ PROMPTS = {
     "ask": (
         "Answer the question using only the context. "
         "Be brief. If the context lacks the answer, say so."
+        "If you have knowledge about the topic then answer it"
     ),
     "explain": (
         "Explain the topic in depth using only the context. "
         "Give a simple overview, then key concepts, then details. "
         "Only include an example if the context contains one; never invent examples or facts. "
         "Ignore context that is not about the topic itself."
+        "If you have knowledge about the topic then explain it"
     ),
     "quiz": (
         "Write 5 multiple-choice questions that test understanding of the topic's concepts, "
@@ -28,7 +30,7 @@ PROMPTS = {
         "Give 4 options (A-D) each, exactly one correct. Put the answer key at the end."
     ),
 }
-TOP_K = {"ask": 3, "explain": 6, "quiz": 8}
+TOP_K = {"ask": 5, "explain": 8, "quiz": 8}
 _FILLER = re.compile(
     r"^\s*(please\s+)?(test me on|quiz me on|quiz me about|quiz on|test me about|"
     r"explain|tell me about|what is|what are)\s+",

@@ -1,0 +1,4 @@
+# Extra dependencies for the desktop chatbot (append to requirements.txt if preferred)
+requests
+customtkinter
+uvicorn
